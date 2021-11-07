@@ -172,3 +172,55 @@ nav button {
 .service-articles article span {
 	display: block;
 }
+
+/* Reviews Section */
+.reviews {
+	background-color: black;
+	display: flex;
+}
+
+.reviews-img {
+	width: 50%;
+}
+
+.reviews-info {
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+
+.reviews-info h2 {
+	margin-top: 6rem;
+	font-size: 3.5rem;
+	font-weight: 400;
+}
+
+.reviews-info h2::after {
+	content: "";
+	display: block;
+	height: 0.25rem;
+	width: 4rem;
+	margin: 1rem auto;
+	background-color: white;
+}
+
+.reviews-info h3 {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-top: 2.5rem;
+}
+
+.reviews-info h3 + p {
+	margin: 5rem 0;
+	font-size: 1rem;
+	font-style: italic;
+}
+
+.reviews-info span {
+	display: block;
+	line-height: 1.6;
+}
+
+.reviews-info p:last-child {
+	font-size: 1.2rem;
+}
