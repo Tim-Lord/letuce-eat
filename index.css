@@ -5,3 +5,8 @@
 	margin: 0;
 	padding: 0;
 }
+
+.container {
+	background-color: rgb(216, 213, 213);
+	font-family: "Roboto", sans-serif;
+}
