@@ -224,3 +224,29 @@ nav button {
 .reviews-info p:last-child {
 	font-size: 1.2rem;
 }
+
+/* Menu */
+.menu {
+	text-align: center;
+	padding: 3rem 0;
+}
+
+.menu h2 {
+	color: #f19201;
+	margin-bottom: 1.75rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.menu-tagline {
+	font-style: italic;
+}
+
+.menu-tagline span {
+	display: block;
+	line-height: 1.6;
+}
+
+.menu-items {
+	background-color: red;
+}
