@@ -248,5 +248,61 @@ nav button {
 }
 
 .menu-items {
-	background-color: red;
+	width: 75%;
+	margin: 2.5rem auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 4rem;
+	row-gap: 2.5rem;
+}
+
+.menu-card {
+	background-color: white;
+	display: flex;
+	padding: 1.2rem;
+}
+
+.menu-card img {
+	width: 50%;
+}
+
+.menu-card div:last-child {
+	margin-left: 1.5rem;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.menu-card div h2 {
+	margin-top: 1rem;
+	color: black;
+	font-size: 1.75rem;
+	font-weight: 400;
+}
+
+.menu-card p {
+	font-size: 1.2rem;
+}
+
+.menu-card span {
+	display: block;
+	font-style: italic;
+}
+
+.menu-card div p + p {
+	color: #f19201;
+	font-weight: 600;
+}
+
+.menu-card button {
+	width: 6rem;
+	padding: 0.5rem 0.75rem;
+	margin-top: 1.2rem;
+	font-size: 1rem;
+	font-weight: 400;
+	color: black;
+	background-color: rgb(216, 213, 213);
+	border: none;
+	cursor: pointer;
 }
