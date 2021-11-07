@@ -306,3 +306,55 @@ nav button {
 	border: none;
 	cursor: pointer;
 }
+
+/* Page Footer */
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+footer div:first-child {
+	height: 25rem;
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.4)
+		),
+		url("./assets//images/image8.png");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer div:first-child h2 {
+	font-size: 2rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+footer div:first-child p {
+	margin: 2.75rem 0;
+	font-size: 2.25rem;
+	font-weight: 700;
+}
+
+footer div:first-child button {
+	padding: 1rem 2.5rem;
+	font-size: 1.2rem;
+	background-color: transparent;
+	border-color: white;
+	color: white;
+	cursor: pointer;
+}
+
+footer div:last-child {
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+}
