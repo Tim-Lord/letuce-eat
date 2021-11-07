@@ -110,3 +110,65 @@ nav button {
 	border: none;
 	cursor: pointer;
 }
+
+/* Services Section */
+
+.services {
+	padding: 2.5rem 0;
+	text-align: center;
+}
+
+.services h2 {
+	color: #f19201;
+	margin-bottom: 1.5rem;
+	font-weight: 500;
+}
+
+.services p {
+	font-style: italic;
+}
+
+.services-tagline span {
+	display: block;
+	line-height: 1.6;
+}
+
+.service-articles {
+	width: 75%;
+	margin: 2rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.service-articles article {
+	width: 32%;
+	padding: 1.5rem 1.2rem;
+	background-color: white;
+}
+
+.service-articles article div:first-child {
+	width: 3rem;
+	height: 3rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f19201;
+	color: white;
+	font-size: 1.25rem;
+	font-weight: 500;
+	border-radius: 50%;
+}
+
+.service-articles article h3 {
+	margin: 1.5rem 0;
+	font-weight: 500;
+}
+
+.service-articles article p {
+	margin-bottom: 2.5rem;
+}
+
+.service-articles article span {
+	display: block;
+}
